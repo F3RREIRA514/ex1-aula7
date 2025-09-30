@@ -1,7 +1,7 @@
 class jogador{
     constructor(id, nome, pontos, status = true) {
         this.id = id;
-        this.nome = nime;
+        this.nome = nome;
         this.pontos = pontos;
         this.status = status;
     }
@@ -16,3 +16,7 @@ class jogador{
         ------------------------`)
     }
 }
+
+let jogador1 = new jogador(1, "zé da manga", 578);
+
+console.table(jogador1);
